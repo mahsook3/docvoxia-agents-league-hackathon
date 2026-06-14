@@ -1,0 +1,32 @@
+{
+"editor.formatOnSave": true,
+"editor.codeActionsOnSave": {
+"source.organizeImports": "explicit",
+"source.fixAll": "explicit"
+},
+
+"python.defaultInterpreterPath": ".venv/bin/python",
+
+"python.analysis.typeCheckingMode": "basic",
+
+"python.testing.pytestEnabled": true,
+"python.testing.unittestEnabled": false,
+
+"files.exclude": {
+"**/**pycache**": true,
+"**/.pytest_cache": true,
+"**/.mypy_cache": true
+},
+
+"[python]": {
+"editor.defaultFormatter": "ms-python.black-formatter"
+},
+
+"ruff.organizeImports": true,
+
+"editor.rulers": [88, 120],
+
+"git.enableSmartCommit": true,
+
+"terminal.integrated.defaultProfile.linux": "bash"
+}
